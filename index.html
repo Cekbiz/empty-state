@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 
 <head>
     <meta charset="UTF-8">
@@ -30,39 +29,10 @@
     </style>
 </head>
 
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empty State</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-
-        .empty-state {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 600px;
-            text-align: center;
-        }
-
-        .text-blue {
-            color: #007bff;
-        }
-    </style>
-</head>
->>>>>>> 90e9ca0f8d97acd47c7bc17bf0eed201d823c47f
 <body>
     <div class="empty-state" id="empty-state">
         <!-- Placeholder for the message -->
     </div>
-<<<<<<< HEAD
     <center><a class="btn btn-dark" style="color:greenyellow; text-decoration:none; font-weight:500;" href="<?= base_url('assets') ?>?message=<h4><marquee><strong><em style='color:darkmagenta;background-color:gainsboro;'>Have a nice day!</em> 🤗</marquee></strong></h4><img id='myImage' src='https://stickerly.pstatic.net/sticker_pack/U8FWf5yrs8wZgqnmZI3J6w/ZAKSJ3/31/8c6d35e4-57df-47eb-82c8-2bbaa95bd553.webp' width='125' height='125' alt='cemungut' title='hai' class='img-small' onclick='changeImage()'><h4 style='text-align:right;'><br/><strong style='padding-right:1px;'>My Regards</strong><br/>Cekbiz</h4>">
             <center>Example? click here 👈</center>
         </a></center>
@@ -101,26 +71,3 @@
 </body>
 
 </html>
-=======
-
-    <script>
-        // Function to get query string parameter by name
-        function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, '\\$&');
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
-
-        // Get the message parameter from URL
-        var message = getParameterByName('message');
-        if (message) {
-            document.getElementById('empty-state').innerHTML = message;
-        }
-    </script>
-</body>
-</html>
->>>>>>> 90e9ca0f8d97acd47c7bc17bf0eed201d823c47f
